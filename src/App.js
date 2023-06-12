@@ -1,11 +1,15 @@
 import React from 'react';
 import {View, Text, Button} from 'react-native';
 import styled from 'styled-components';
+import {StatusBar} from 'react-native';
 
+const theme = {
+  backgroundColor: '#101010',
+};
 
-const Container = styled.View`
-  flex : 1;
-  background-color: darkgray;
+const Container = styled.SafeAreaView`
+  flex: 1;
+  background-color: black;
   align-items: center;
   justify-content: flex-start;
 `;
@@ -21,7 +25,11 @@ const Title = styled.Text`
 const App = () => {
   return (
     <Container>
-      <Title>아수라발발타</Title>
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor={theme.backgroundColor}
+      />
+      <Title>TODO</Title>
       <Button title="ABC"></Button>
     </Container>
   );
