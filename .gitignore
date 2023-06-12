@@ -1,0 +1,122 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+ios/.xcode.env.local
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+/ios/Pods/
+/vendor/bundle/
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+.eslintrc.js
+.node-version
+.prettierrc.js
+.watchmanconfig
+app.json
+App.tsx
+babel.config.js
+Gemfile
+Gemfile.lock
+metro.config.js
+package-lock.json
+tsconfig.json
+yarn.lock
+.bundle/config
+__tests__/App-test.tsx
+android/build.gradle
+android/gradle.properties
+android/gradlew
+android/gradlew.bat
+android/settings.gradle
+android/app/build.gradle
+android/app/debug.keystore
+android/app/proguard-rules.pro
+android/app/src/debug/AndroidManifest.xml
+android/app/src/debug/java/com/alpha_ios/ReactNativeFlipper.java
+android/app/src/main/AndroidManifest.xml
+android/app/src/main/java/com/alpha_ios/MainActivity.java
+android/app/src/main/java/com/alpha_ios/MainApplication.java
+android/app/src/main/res/drawable/rn_edit_text_material.xml
+android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+android/app/src/main/res/values/strings.xml
+android/app/src/main/res/values/styles.xml
+android/app/src/release/java/com/alpha_ios/ReactNativeFlipper.java
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradle/wrapper/gradle-wrapper.properties
+ios/.xcode.env
+ios/Podfile
+ios/Podfile.lock
+ios/alpha_ios/AppDelegate.h
+ios/alpha_ios/AppDelegate.mm
+ios/alpha_ios/Info.plist
+ios/alpha_ios/LaunchScreen.storyboard
+ios/alpha_ios/main.m
+ios/alpha_ios/Images.xcassets/Contents.json
+ios/alpha_ios/Images.xcassets/AppIcon.appiconset/Contents.json
+ios/alpha_ios.xcodeproj/project.pbxproj
+ios/alpha_ios.xcodeproj/xcshareddata/xcschemes/alpha_ios.xcscheme
+ios/alpha_ios.xcworkspace/contents.xcworkspacedata
+ios/alpha_iosTests/alpha_iosTests.m
+ios/alpha_iosTests/Info.plist
